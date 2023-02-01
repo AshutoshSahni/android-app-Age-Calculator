@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/bgColor"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    android:padding="16sp"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/calculate_your"
+        android:textColor="@color/mainText"
+        android:textSize="32sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8sp"
+        android:background="@color/mainText"
+        android:padding="10sp"
+        android:text="@string/age"
+        android:textColor="@color/bgColor"
+        android:textSize="28sp"
+        android:textStyle="italic" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8sp"
+        android:padding="10sp"
+        android:text="@string/selectDOB"
+        android:textColor="@color/secondaryText"
+        android:textSize="24sp" />
+
+    <Button
+        android:id="@+id/btnDateSelector"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8sp"
+        android:backgroundTint="@color/btnBgColor"
+        android:padding="10sp"
+        android:text="@string/btnSelectDate"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/tvSelectedDate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8sp"
+        android:text="@string/selectedDate"
+        android:textColor="@color/mainText"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:letterSpacing="0.2"
+        android:text="@string/selectedDateText"
+        android:textColor="@color/secondaryText"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/tvAgeInHour"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16sp"
+        android:text="@string/ageInHour"
+        android:textColor="@color/mainText"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:letterSpacing="0.2"
+        android:text="@string/hourOldText"
+        android:textColor="@color/secondaryText"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/tvAgeInMinute"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16sp"
+        android:text="@string/ageInMinute"
+        android:textColor="@color/mainText"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:letterSpacing="0.2"
+        android:text="@string/minuteOldText"
+        android:textColor="@color/secondaryText"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/tvAgeInSeconds"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16sp"
+        android:text="@string/ageInSeconds"
+        android:textColor="@color/mainText"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:letterSpacing="0.2"
+        android:text="@string/secondsOldText"
+        android:textColor="@color/secondaryText"
+        android:textSize="16sp" />
+
+</LinearLayout>

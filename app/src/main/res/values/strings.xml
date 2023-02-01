@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">AgeCalculator</string>
+    <string name="calculate_your">CALCULATE YOUR</string>
+    <string name="age">AGE</string>
+    <string name="selectDOB">Select Date Of Birth (DOB)</string>
+    <string name="btnSelectDate">SELECT DATE</string>
+    <string name="selectedDate">DD/MM/YYYY</string>
+    <string name="selectedDateText">SELECTED DATE</string>
+    <string name="ageInHour">0</string>
+    <string name="hourOldText">HOURS OLD</string>
+    <string name="ageInMinute">0</string>
+    <string name="minuteOldText">MINUTES OLD</string>
+    <string name="ageInSeconds">0</string>
+    <string name="secondsOldText">SECONDS OLD</string>
+
+</resources>
